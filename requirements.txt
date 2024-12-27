@@ -1,0 +1,7 @@
+pandas
+seaborn
+matplotlib
+plotly.express
+os-sys-php
+scikit-learn
+streamlit
