@@ -77,10 +77,9 @@ def grafico1_hipotesis_5(df):
     return fig
 
 def grafico2_hipotesis_5(df):
-     # Crear una columna que indica si es un máximo histórico
+    
     df["alto"] = df["Adj Close"] == df["Adj Close"].cummax()
 
-    # Gráfico de caja del volumen de transacciones
     fig = plt.figure(figsize=(8, 6))
     ax = fig.add_subplot(111)
     ax.boxplot(
